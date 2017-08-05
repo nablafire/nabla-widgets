@@ -1,0 +1,20 @@
+/*--------------------
+FANCY CAPTION WIDGET
+--------------------*/
+
+/* This is how we set CSS variables */
+:root {
+    --accent-size:120px; /* The total size of our circle accent */
+    --icon-size:30px;    /* The size of our icon within circle */ 
+}
+
+/* Main Div */
+.nabla-fancy-caption{
+	display: inline-block;
+    margin: 0px 15px 0px 15px;
+}
+
+/* Wraper Div for Image + Accent Centering*/
+.nabla-fancy-caption-centering{
+    width: 100%;
+}
